@@ -1,458 +1,678 @@
-<! DOCTYPE html>
+<?php
+require("insert.php");
+?>
+<!DOCTYPE html>
 <html>
 <head>
-      <title>barber.com</title>
+       <title>Termopane</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style1.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="responsiveslides.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="web-fonts-with-css/css/fontawesome-all.min.css">
+   <!--<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>-->
+ 
+  
+ 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="responsiveslides.min.js"></script>
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "centered-btns"
+      });
+
+      // Slideshow 2
+      $("#slider2").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "transparent-btns"
+      });
+
+      // Slideshow 3
+      $("#slider3").responsiveSlides({
+        auto: false,
+        pager: false,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "large-btns"
+      });
+
+    });
+</script>    
+  <!--  End of responsive slides -->
+
+
+                       <script>
+                                                    $(document).ready(function(){
+                                                      $('.section-1-wrapper1').animate({left:"40%"},{duration:2000});
+                                                     
+                                                    });
+                                                     
+
+                                                      
+
+                      </script>
+
+                      <!-- End of animation to the right -->
+
+    
+
+</head>
+<body>
+
+	  
+                 <header>
+
+                       <div class="header-inner">
+                        
+                                               <marquee style="font-family:Book Antiqua; color: #FFFFFF"  scrollamount="5">OPENING HOURS : MONDAY TO FRIDAY : 8:00AM TO 5:30PM , SATURDAY , 8:30AM TO 15:00PM</marquee>
+                             
+                       </div>
+              
+
+      <!-- <section class="section-1">-->
+                 	                         <div class="section-1-wrapper1">
+                                                  
+                                                     	   
+                                                 
+                                                             <aside class="contact">
+                                                                    <p class="pp"><b><i class="fas fa-phone-volume"></i>38640 556 558</b></p>
+                                                       </aside>
+                                                         <article class="contact1">
+                                          <p class="pp"><i class="fas fa-envelope-square"></i><b>glass<i class="fas fa-at">gmail.com</i></i></p>
+                                                            </article>
+                                              </div>
+                                                                 
+
+                                                        
+                                                       
+                                                   
+                      
+        <!--<section class="section-2">-->
+                 
+
+                                      <div id="header-inner2">
+                                   
+                    
+                                        <nav>
+                                             <ul>
+                                                
+                                           
+                                                <li id="header-inner3"><a class="ss">About us</a></li>
+
+                                                 <li id="header-inner3"><a class="sss">Our services</a></li>
+                                                <li id="header-inner3"><a class="ssss">Locate Us</a></li>
+                                                 <li id="header-inner3"><a><i class="fab fa-facebook"></i></i></a></li>
+                                             </ul>
+                                        </nav>
+
+                                      </div>
+                                      
+
+
+
+
+
+
+
+
+                   <header>
+
+            <!--  </section>-->
+                
+                 <script>
+                                      $(document).ready(function(){
+                                        $(".ss").click(function(){
+                                          $(".aa").slideToggle(1700);
+                                         
+                                        })
+                                      })
+                                      /*End About us toggle*/
+
+                                      $(document).ready(function(){
+                                        $(".sss").click(function(){
+                                          $(".aaa").slideToggle(1700);
+                                         
+                                        })
+                                      })
+                                      /*End Our services toggle*/
+
+                                       $(document).ready(function(){
+                                        $(".ssss").click(function(){
+                                          $(".aaaa").slideToggle(1700);
+                                         
+                                        })
+                                      })
+
+
+
+
+                          </script>  
+
+
+   
+
+                     <section class="aa-inner-1">  
+                     	<div class="aa">
+                      
+
+                          <div class="aa-inner-2">
+                             <p>We are an established family business with a reputation based on over 80 years’ experience in all aspects of glass, mirrors, double glazing, conservatories, uPVC and aluminium windows and doors.<br><br>
+
+                             Based in the centre of London, we serve the domestic, public sector and commercial markets in all aspects of glass design, manufacture through to supply and installations.<br><br>
+
+                             </p>
+
+                            </div>
+
+                     <div class="aa-inner-2">
+
+                           <h3>WHAT WE DO?</h3>
+
+                             <button class="collapsible">24 Hour Emergency Glazing Service</button>
+                            <div class="content">
+                              <p class="inner-contect">Our glazing service provide the expertise to repair window glass, sealed units, shop fronts for public and private sectors, including major construction companies, local authorities, schools, hospitals and police authorities.</p>
+                            </div>
+
+                             <button class="collapsible">Arhitectual Aluminium</button>
+
+                               <div class="content">
+                              <p class="inner-contect">Glass Experts commercial department specialise in the manufacture, supply and installation of high quality aluminium windows, doors, curtain walling and shopfronts from our own large factory.
+                              We work closely with Architects, contractors and domestic clients on varied projects from £500 to £500,000 across the UK ranging from new build and refurbishments to schools and hospitals.</p>
+                            </div>
+
+                             <button class="collapsible">Domestic , Trade and Comercial Markets</button>
+
+                             <div class="content">
+                              <p class="inner-contect">Glass Experts domestic sales department specialise in the supply and installation of high quality uPVC windows and doors, conservatories, roofline products and garage doors throughout London and surrounding counties. 
+                              All of our fitters are qualified and experienced professionals so we know how reliable and respectful to your property they are. No wonder our testimonials are so glowing..</p>
+                            </div>
+
+                            <button class="collapsible">Glass Supplies</button>
+
+                            <div class="content">
+                              <p class="inner-contect">Glass Experts are stockists and suppliers of a wide range of mirror and glass products for the construction industry and to domestic customers. Our experienced glass technicians will cut your requirements while you wait and also complete any additional processing works such as polishing, bevelling, drilling or cutting.</p>
+                            </div>
+
+
+                            </div>
+
+                       <div class="aa-inner-2">
+                                                                           
+                         <img class ="gallery1" src="http://www.iflarchitecture.com/wp-content/uploads/2016/05/ad-0616-mori-12-400x300.jpg">
+
+                          <h3>Our best project</h3>
+
+
+                     </div>                 
+
+
+
+
+
+
+                                                               
+               
+
+</div>
+                                                                                  
+
+                                    </section>
+
+                    
+
+                    <script>
+
+                 
+                     var coll = document.getElementsByClassName("collapsible");
+                    var i;
+
+                    for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                    content.style.display = "none";
+                     } else {
+                       content.style.display = "block";
+                         }
+                        });
+                     }
+
+
+
+
+
+                    </script>
+
+                    <!--End toggle About us-->
+
+                    <div class="aaa">
+
+                                    <section class="aa-inner-1">  
+                                     
+
+                                                               
+
+                                                               <div class="aa-inner-2">
+                                                                           
+                                                                             <img id ="gallery1" src="http://www.oldenglishwindowcompany.co.uk/wp-content/uploads/Glass2-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Glass and Glazing</h3>
+
+
+                                                                              <p class="aa-inner-1-container1-inner-p">Glass Experts are stockists and suppliers of a wide range of glass products for the construction industry and to domestic customers. Our...</p>
+
+                                                                     </div>
+                                                               
+
+                                                               <div class="aa-inner-2">
+                                                                           
+                                                                             <img  id ="gallery1" src="http://weglazeanywindow.com/wp-content/uploads/2015/04/shop-fronts-480x480-2.jpg">
+
+                                                                              <h3 class="inner-h">Domestic Sales</h3>
+
+                                                                               <p class="aa-inner-1-container1-inner-p">Glass Experts domestic sales department specialise in the supply and installation of high quality uPVC windows and doors, conservatories,...</p>
+
+
+                                                               </div>
+
+                                                               <div class="aa-inner-2">
+                                                                           
+                                                                             <img  id ="gallery1" src="http://www.bdcdoor.com/wp-content/uploads/2017/08/aluminum-glass-garage-doors-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Commercial Aluminium</h3>
+
+                                                                             <p class="aa-inner-1-container1-inner-p"> Glass Experts commercial department specialise in the manufacture, supply and installation of high quality aluminium windows, doors, curtain....</p>
+
+
+                                                               </div>
+
+                                                               <div class="aa-inner-2">
+                                                                           
+                                                                             <img  id ="gallery1" src="https://www.synergy-windows.co.uk/wp-content/uploads/2017/11/upvc-windows-living-room-doors-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Windows</h3>
+
+                                                                              <p class="aa-inner-1-container1-inner-p">Elegant, yet strong and durable our casement uPVC windows come in all shapes and sizes. They come either double or triple glazed and can hinge at...</p>
+
+
+                                                               </div>
+
+                                                                  <div class="aa-inner-2">
+                                                                           
+                                                                             <img id ="gallery1"  src="http://www.spitfireshutters.co.uk/wp-content/uploads/2017/08/garage-doors-orpington-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Garage Doors</h3>
+                                                                              <p class="aa-inner-1-container1-inner-p">Glass Northampton supply and install Hormann garage doors with remote control to complement your double glazing with security and peace of mind....</p>
+
+
+                                                               </div>
+
+                                                                  <div class="aa-inner-2">
+                                                                           
+                                                                             <img id ="gallery1"  src="https://todaysentrydoors.com/media/85-traditional-single-front-door-2-sidelights-fiberglass-therma-tru-s982-smooth-painted-classic-white-saratoga-glass-brushed-nickel-caming-orange-marquez-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Doors</h3>
+                                                                              <p>Transform the appearance of your home with our energy efficient, durable, secure doors that will add to the warm welcome you will afford your...</p>
+
+
+                                                               </div>
+
+                                                                  <div class="aa-inner-2">
+                                                                           
+                                                                             <img  id ="gallery1" src="https://www.rainhillupvc.co.uk/wp-content/uploads/2015/11/gap_roof_line463-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Fascia, Soffits, Gutters</h3>
+
+                                                                              <p class="aa-inner-1-container1-inner-p">Glass Experts has a fantastic range of roofline services. We will remove your existing timber fascia, soffits and guttering and replace them...</p>
+
+
+                                                               </div>
+
+                                                                  <div class="aa-inner-2">
+                                                                           
+                                                                             <img id ="gallery1"  src="https://www.tjhconservatories.co.uk/wp-content/uploads/2018/01/conservatories_0000_IMG_7723-400x300.jpg">
+
+                                                                              <h3 class="inner-h">Conservatories</h3>
+
+                                                                              <p class="aa-inner-1-container1-inner-p">Adding a conservatory or orangery will bring a new dimension to your home. It will create an elegant extra living space bringing the garden into...</p>
+
+
+                                                               </div>
+
+                                                                  <div class="aa-inner-2">
+                                                                           
+                                                                             <img  id ="gallery1" src="http://bespokebifolds.com/wp-content/uploads/2017/07/400x300window.png">
+
+                                                                              <h3 class="inner-h">Aluminium Windows and Doors</h3>
+                                                                              <p class="aa-inner-1-container1-inner-p">Glass Experts manufacture, supply and install bespoke aluminium windows, French doors and Bi-Folding doors for the domestic market.</p>
+
+
+                                                               </div>
+
+
+
+
+
+
+                                                               
+               
+
+                                                                                  
+
+                                    </section>
+
+                    </div>
+                    <!--Endof our services-->
+
+
+
+
+
+
+                    <div class="aaaa">
+
+                                    <section class="aa-inner-1">  
+                                      <div class="container1">
+
+
+                                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.252098918951!2d-0.8951738934124012!3d52.238804481913455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770edcfa80b741%3A0xfbc76464c37e5f17!2sThe+Grosvenor+Centre!5e0!3m2!1sen!2suk!4v1522283647767" width="700" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                           
+
+
+
+
+
+
+                                                               
+               
+
+                                                                                  
+
+                                    </section>
+
+                    </div>
+                              
+
+
         
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="styylee.css">
+                 <banner class="banner1">	   
+                                        <div id="wrapper">
+                                                <div class="rslides_container">
+                                                    <ul class="rslides" id="slider1">
+                                                        <li><img id="img-slide" src="http://www.contemporist.com/wp-content/uploads/2017/08/modern-house-architecture-160817-1251-01-800x400.jpg"></li>
+                                                       <li><img  id="img-slide" src="http://www.contemporist.com/wp-content/uploads/2017/08/modern-house-architecture-160817-1251-02-800x399.jpg" ></li>
+                                                       <li><img id="img-slide"  src="https://www.buckeyestateblog.com/wp-content/uploads/2016/07/amazing-glass-house-design-800x450-800x400.jpg" ></li>
+                                                    </ul>
+                                                </div>
+
+
+
+
+                                           </div>
+                               
+                </banner>
+ 
+               <section class="section-3">
+                                        <div class="section-3-inner-1-div">
+                                          <h3 class="section-3-inner-1">WELCOME TO GLASS EXPERTS</h3>
+                                          <p id="move"></p>
+                                        </div>
+
+                                     <!--  <script>
+                                                 $(document).ready(function(){
+                                                  $('#xx').animate({width:"40%"
+
+                                                  },{duration:2000});
+
+                                                 });
+
+                                        </script>-->
+
+
+              </section>
+              
+ 
+              <section class="section-4">
+
+                                        <div class="center">
+
+                                             <h4 class="section-4-inner-1">We are an established family business with a reputation based on over 80 years’ experience in all aspects of glass, mirrors, double glazing, conservatories, uPVC and aluminium windows and doors.<br><br>
+
+                                             Based in the centre of London, we serve the domestic, public sector and commercial markets in all aspects of glass design, manufacture through to supply and installations.</h4>
+
+                                         </div>
+
+
+                                        
+
+                                 
+
+             </section>
+
+     <!--        <section class="section-5">
+
+                                            <div class="section-5-inner-1">
+
+                                           
+                                             <img class="image" src="https://hartley-botanic.co.uk/wp-content/uploads/2016/03/opus-glasshouse-2-1180x472.jpg">
+
+                                            </div>
+
+
+                                            <div class="section-5-inner-1">
+
+                                            
+                                             <img  class="image"  src="https://www.architecturalrecord.com/ext/resources/Issues/2018/March/Commentary/1803-Perspective-Commentary-Philip-Johnson-Glass-House-01.jpg?1519228014">
+                                            
+                                          
+                                            </div>
+
+                      
+
+            </section>
+-->
+
 
            
 
-  
 
-  
+              <section class="section-5">
 
-   
-</head>
-<body>
-         <header>
-              <div id="header-inner">
-                     <nav>
-                            <ul>
-                                 <li>Address Street, Barber City GS23 </li>
-                                 <li>Call us on 386 40 556 558 </li>
-                                 <li>info@barber.com</li>
+                                      <div id="section-5-div">
 
-                             </ul>
-                     </nav> 
-              </div>
+                                            <div class="section-5-inner-1">
 
-       
-              <div id="header-inner2">
-                     <nav >
-                            <ul>
-                                 <li id="header-inner3"><a href="index.php">Home</a></li>
-                                 <li id="header-inner3"><a href="gallery.php">Gallery</a></li>
-                                 <li id="header-inner3"><a href="price.php">Price</a></li>
-                                 <li id="header-inner3"><a href="appoinment.php">Book An Appoinment</a></li>
-                             </ul>
-                     </nav> 
-              </div>
+                                           
+                                             <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeLRGLRTQsnxRmmZAh79eIpzoWkkcRIi7f3wARqRGmeAZ9Xo6C">
 
-       </header>
-   <!-- End header-->
+                                             <h3>Glass and Glazing</h3>
+                                             <p id="pp">Glass  are stockists and suppliers of a wide range of glass products for the construction industry and to domestic customers. Our...</p>
 
+                                            </div>
 
 
+                                            <div class="section-5-inner-1">
 
-   <section class="banner" >
-             <!-- <div class="banner-inner">-->
+                                            
+                                             <img  class="image"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHvuhX04_E3_rMBO0N-VzNl1pq5kVM11jeEWGHyyFedeTwiMeV">
+                                             <h3>Domestic Sales</h3>
+                                             <p id="pp">Glass  domestic sales department specialise in the supply and installation of high quality uPVC windows and doors, conservatories,...</p>
+                                            </div>
+                                            
+                                            <div class="section-5-inner-1">
+                                           <img src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShYSbbopMq0MvJjrDUXbJgUlD2L3kKgnVydX-6MxLXgqvVeReeyw">
+                                           <h3>Commercial Aluminium</h3>
+                                             <p id="pp">Glass  commercial department specialise in the manufacture, supply and installation of high quality aluminium windows, doors, curtain...</p>
+                                            </div>
 
-             <img id="myImage" class="ll"  src="https://www.pallmallbarbers.com/wp-content/uploads/2015/11/Trafalgar-Square.jpg" 
-            name="imgs"></img>
-            <button onclick="nxt()"  class = "previous "  id="btnOne"> < </button>
-            <button onclick="prvs()"  class = "next "  id="btnTwo"> > </button>
-
-              
- 
-   </section>
-       
-
-
-     
-
- 
-
-
-       
-
-        <section class="inner-wraper">
-                 <article id="location">
-                                         <h4><span id ="find">MOST POPULAR HAIR AND BEARD STYLES</span></h4>
-
-                                         <img  id ="poze1" src ="http://s3.amazonaws.com/cdn.roosterteeth.com/uploads/images/4daffae5-df0c-4845-8036-a0a782c7d7a0/md/1845809-1457292912401-perfectbeard-580x580.jpg" >
-                                         <img  id ="poze1" src="https://cdn-mf0.heartyhosting.com/sites/mensfitness.com/files/styles/wide_videos/public/ask-mf-perfect-scruff-main_0.jpg?itok=Sc8cahda">
-                                         <img id ="poze1" src="https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/10/Beard-trimming-scissors-or-beard-trimmer.jpg">
-                               
-                                         <img id ="poze1" src="http://beard-style.com/image/1/2885-here-are-the-most-popular-beard-styles-over-the-past-16-decades-mic.jpg">
-                                         <img id ="poze1" src="https://atozhairstyles.com/wp-content/uploads/2016/08/4-Beard-Style-for-Oval-Face.jpg">
-                                         
-                                         <img  id ="poze1" src="https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg">
-                                        
-
-
-                 </article>
-
-                 <aside id="location1">
-                                      <h4><span id ="find">CHECK OUR TOP PRICES</span></h4>
-
-                                        <p id = "toted">Trim your Beard<span id ="s">from £15</span></p></a>
-                                        <p id = "toted">Trim your Hair<span id ="s">from £40</span></p>
-                                        <p id = "toted">Special Beard Treatment<span id ="s">from £59</span></p>
-                                        <p id = "toted">Color your Beard<span id ="s">from £69</span></p>
-                                        <p id = "toted">Wax your Beard<span id ="s">from £12</span></p>
-                                        <p id = "toted">Complete Treatment<span id ="s">from £99</span></p>
-
-                 </aside>
-        </section>
-
-                 <section class="banner" >
-                  <div class="banner-inner">
-                              <img id="myImage" src ="http://legacylockers.com/cms/wp-content/themes/echelon/lib/scripts/timthumb/thumb.php?src=http://legacylockers.com/cms/wp-content/uploads/2015/11/iStock_000064163969_Small.jpg&w=588&h=226&zc=1&q=100">
-                  </div>
-                </section>
-                <section class="banner-15">
-
-                               <div id ="open1">MON<br>08:00-18:00</div>
-                               <div id ="open1">TUE<br>08:00-18:00</div>
-                               <div id ="open1">WED<br>08:00-18:00</div>
-                               <div id ="open1">THU<br>08:00-18:00</div>
-                               <div id ="open1">FRI<br>08:00-18:00</div>
-                               <div id ="open2">SAT<br>08:00-18:00</div>
-                               <div id ="open2">SUN<br>08:00-18:00</div>
-                          
-                
-                 </section>
-
-           <section class="inner-wraper">
-                                    <article id="button">
-                                                           <button id="changeTexter1">CLASSIC HAIR STYLING - £49</button>
-                                                           <button id="changeTexter2">BEARD TRIMMING - £29</button>
-                                                           <button id="changeTexter3">MUSTACHE STYLING - £19</button>
-                                                           <button id="changeTexter4">COMPLETE TREATMENT - £49</button>
-                                                           <button id="changeTexter5">BEARD SHAVING - £19</button>
-                                                           <button id="changeTexter6">HAIR COLORING - £39</button>
-                                                           <button id="changeTexter7">JUST A FAST TRIM - £9</button>
-
-
-
-
-                                    </article>
-                                    <aside id="parag">
-                                                 <div id="firstDiv"><p>Haircut, shampoo/conditioner & hot towel finish. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam.</p>
-        <img  src = "https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/10/Beard-trimming-scissors-or-beard-trimmer.jpg" width="30%"
-        height="25%">
-        <img   src = "http://beard-style.com/image/1/2885-here-are-the-most-popular-beard-styles-over-the-past-16-decades-mic.jpg" width="30%"
-        height="25%">
-        <img   src = "https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg" width="30%"
-        height="25%"></div>
-
-
-
-                                                <div id ="firstDiv"></div>
-
-        
-                                                <div id ="firstDiv"></div>
-
-        
-                                                <div id ="firstDiv"></div>
-
-        
-                                                <div id ="firstDiv"></div>
-
-        
-                                                <div id ="firstDiv"></div>
-
-       
-                                                <div id ="firstDiv"></div>
-
-<script>
-                document.getElementById("changeTexter1").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Haircut, shampoo/conditioner & hot towel finish. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Haircut, shampoo/conditioner & hot towel finish."+ "<br>" + "<img  src=\'https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/10/Beard-trimming-scissors-or-beard-trimmer.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\'http://beard-style.com/image/1/2885-here-are-the-most-popular-beard-styles-over-the-past-16-decades-mic.jpg '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>" ; 
-                }
-
-                 document.getElementById("changeTexter2").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Haircut, shampoo/conditioner & hot towel finish. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. ." + "<br>" + "<img  src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\' http://www.cheatsheet.com/wp-content/uploads/2015/08/Bearded-man-in-a-barber-shop-640x426.jpg?x11342 '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://atozhairstyles.com/wp-content/uploads/2016/08/4-Beard-Style-for-Oval-Face.jpg'\  width=\'30%\' height=\'25%\'>";
-                }
-
-                 document.getElementById("changeTexter3").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Haircut, shampoo/conditioner & hot towel finish. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat." + "<br>" + "<img  src=\'https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/10/Beard-trimming-scissors-or-beard-trimmer.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\' http://beard-style.com/image/1/2885-here-are-the-most-popular-beard-styles-over-the-past-16-decades-mic.jpg '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>";
-                }
-
-                 document.getElementById("changeTexter4").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Haircut, shampoo/conditioner & hot towel finish. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat." + " <br>" + "<img  src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\' http://www.cheatsheet.com/wp-content/uploads/2015/08/Bearded-man-in-a-barber-shop-640x426.jpg?x11342 '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://atozhairstyles.com/wp-content/uploads/2016/08/4-Beard-Style-for-Oval-Face.jpg'\  width=\'30%\' height=\'25%\'>";
-                }
-
-                 document.getElementById("changeTexter5").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Haircut, shampoo/conditioner & hot towel finish. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. " + "<br>" + "<img  src=\'https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/10/Beard-trimming-scissors-or-beard-trimmer.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\'  http://beard-style.com/image/1/2885-here-are-the-most-popular-beard-styles-over-the-past-16-decades-mic.jpg '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>";
-                }
-
-                 document.getElementById("changeTexter6").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Prices, products and offers may vary per location. Call your local Barber's Salon for prices. We offer various haircuts and beard trimming of all sorts. But our specialty is the proper trimming of your beard. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Haircut, shampoo/conditioner & hot towel finish." + "<br>" + "<img  src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\' http://www.cheatsheet.com/wp-content/uploads/2015/08/Bearded-man-in-a-barber-shop-640x426.jpg?x11342 '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://atozhairstyles.com/wp-content/uploads/2016/08/4-Beard-Style-for-Oval-Face.jpg'\  width=\'30%\' height=\'25%\'>" 
-                }
-
-                 document.getElementById("changeTexter7").onclick=function(){
-                  document.getElementById("firstDiv").innerHTML="Call your local Barber's Salon for prices. We offer various haircuts and beard trimming of all sorts. But our specialty is the proper trimming of your beard. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod. Haircut, shampoo/conditioner & hot towel finish ." + "<br>" + "<img  src=\'https://i2.wp.com/youmeandtrends.com/wp-content/uploads/2015/10/Beard-trimming-scissors-or-beard-trimmer.jpg'\  width=\'30%\' height=\'25%\'>"  + "<img   src=\'  http://beard-style.com/image/1/2885-here-are-the-most-popular-beard-styles-over-the-past-16-decades-mic.jpg '\  width=\'30%\' height=\'25%\'>" + "<img   src=\'https://www.living-postcards.com/sites/default/files/imagecache/art_inside/slide_homepage_1240x800_0.jpg'\  width=\'30%\' height=\'25%\'>";
-                  document.getElementById("s").innerHTML="1px";
-                
-                }
-
-            
-
-         </script>
-
-
-
-
-         </aside>
-
-       
-            
-
-                    
-       <section id ="book">
-       <div id ="b">
-                 <h3><span id="custumerB">OUR SHORT STORY AND USER'S OPINIONS</span></h3>
-                 <h1><span id = "custumerC">ABOUT US AND TESTIMONIALS</span></h1>
-                   <p id ="xx"></p>
-
-    </div>
-       </section>
-
-       <section class="inner-wraper2">
-             <article class="article2">
-                                        <h3 class="in">We offer various haircuts and beard trimming of all sorts. Our specialty is the 
-                                          trimming of your <span id = "xxx">beard</span>. You are in trusted hands with our stylists </h3>
-         
-          <img  class="img3" src = "https://media.timeout.com/images/103699471/380/285/image.jpg" w >
-          <img  class="img4" src = "http://stikliai.com/wp-content/uploads/2015/05/slider-2_barbers.jpg" >
-          <h4 class="in">We provide the best barber services in town. If you have any questions about our<br> services, do not hesitate to contact us at info@barber.com and let us know your wishes. We will be happy to answer your inquiries. Or call us at<span id = "xxx"> 386 40 556 558</span>.</h4>
-
-
-         
-          </article>
-
-             <aside class="asside2">
-                     <div id="border">   
-                       <img class="img-circle" src = "http://www.timeoutdubai.com/thumb/gallery-article/outlets/18186/2016_akinbarber_base.jpg"  >
-             <h3 class="">Top-notch service. I couldn't have been more pleased. I always leave with a big smile on my face and much more relaxe than when I arrived.
-                <br><span id = "xxxxxxx">Some Customer </span></h3>
-                </div>
-                <div id = "border1">
-
-                <img class="img-circle" src = "http://thebarberschool.com/wp-content/uploads/2017/03/AdobeStock_101037312.jpg" >
-               <h3 class="in">Top-notch service. I couldn't have been more pleased. I always leave with a big smile on my face and much more relaxed than when I arrived.
-                <br><span id = "xxxxxxx">Some Customer </span></h3>
-                          
-                </div>
-
-       </section>
-
-
-       <section class="inner-wraper3">
-        <div class="Discount">
-         <h1 id = "textxx">DISCOUNT COUPON FOR -20%: BARBERS</h1>
-   </div>
-
-       </section>
-
-            <section id ="book">
-       <div id ="b">
-                 <h3><span id="custumerB">MEET OUR TEAM OF BEARD PROFESSIONALS</span></h3>
-                 <h1><span id = "custumerC">OUR BARBERS AND STYLISTS</span></h1>
-                   <p id ="xx"></p>
-
-    </div>
-       </section>
-
-
-         <section class="inner-wraper4">
-
-              <section class="one-fourth">
-                        <img id = "awa" src ="http://shopshiptoshore.com/wp-content/uploads/2016/06/iStock_000084252979_Medium.jpg" width="130px" height="130px">
-                         <p><b>JAMES BARBER</b></p><br>
-                         <p><b>Beard Trimmer</b></p><br>
-                         <p>10 years of experience in bearding.</p><br>
-                         <p>You will be in trusted hands.</p> <br>
-                         
-                         <p>Email: <span id = "gr">james@barber.com</span></p><br>
-            
-              </section>
-
-                <section class="one-fourth">
-                          <img  id = "awa" src ="http://thevaletlondon.com/wp-content/uploads/2014/04/home-3.jpg" width="130px" height="130px">
-                         
-                                              <p><b>DEEN MUSTACHIO</b></p><br>
-                                              <p><b>Mustache Expert</b></p><br>
-                                              <p>5 years of experience in bearding..</p><br>
-                                              <p>You will be in trusted hands</p> <br>
-                                             
-                                              <p> Email:<span id = "gr"> deen@barber.com</span></p><br>
-                </section>
-
-                <section class="one-fourth">
-                                     <img id = "awa"  src ="https://www.pallmallbarbers.com/wp-content/uploads/2015/02/MG_2712.jpg" width="130px" height="130px">
-                                                 <p><b>JOSEPHINE COLORISTA</b></p><br>
-                                                 <p><b>Color Expert</b></p><br>
-                                                 <p>7 years of experience in coloring..</p><br>
-                                                 <p>You will be in trusted hands</p> <br>
-                                                 
-                                                 <p> Email:<span id = "gr">josephine@.com</span></p> <br>
-                       
-                </section>
-
-                    <section class="one-fourth">
-                                      <img id = "awa" src ="http://static.fashionbeans.com/wp-content/uploads/2017/02/askquestions.jpg" width="130px" height="130px">
-                                                 <p><b>CLINT HAIRISTA</b></p><br>
-                                                 <p><b>Hair Specialist12</b></p><br>
-                                                 <p>12 years of experience in styling.</p><br>
-                                                 <p>You will be in trusted hands.</p> <br>
-                                                 
-                                                 <p> Email:<span id = "gr">clint@barber.com</span></p><br>
-                       
-                </section>
-     
-          </section>
-           <section class="inner-wraper5">
-
-              <section class="one-third">
-                        <h3>OUR INSTAGRAM FEED</h3>
-                         <img src="https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?h=350&auto=compress&cs=tinysrgb" width="70" height="70">
-                         <img src="https://www.nationalgeographic.com/content/dam/travel/2016-digital/canada/alberta/alberta-road-trip/icefields-parkway-lake-louise-alberta-canada.adapt.1190.1.jpg" width="70" height="70">
-                         <img src="https://thumbs.dreamstime.com/z/hipster-girl-laptop-cup-coffee-ona-wooden-table-close-up-60691062.jpg" width="70" height="70"><br>
-                         <img src="https://images.pexels.com/photos/296879/pexels-photo-296879.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" width="70" height="70">
-                         <img src="https://cdn-images-1.medium.com/max/2000/1*ZBXLF0FmRoZWdHW8yfLbeA.jpeg" width="70" height="70">
-                         <img src="https://funalive.com/uploads/files/article/images/funny-interesting-pictures_24sep16-4.jpg" width="70" height="70"><br>
-                         <img src =  "https://brashiermiddlecollegenews.org/wp-content/uploads/2017/01/nice.png" width="70" height="70">
-                         <img src =  "https://cdn.tinybuddha.com/wp-content/uploads/2015/06/Happy-Woman.jpg" width="70" height="70">
-                         <img src =  "https://thehappypharmacist.files.wordpress.com/2016/03/1024x768-data-uploads-35-401510-im-happy-best-wallpaper.jpg" width="70" height="70">
-            
-              </section>
-
-                <section class="one-third">
-                        <h3>ABOUT US</h3>
-                         
-                                             <p id = "totedd">Barber Saloon is a vintage design<br> barber that focuses on your beard's<br> best experience.<br>
-                                                 (+386) 40 123 456<p>
-                                                  
-
-                                                <p id = "totedd"><span class="fa fa-envelope" style="font-size:20px"></span>info@barber.com</p>
-                                                <p id = "totedd"> <span class="fa fa-phone" style="font-size:20px"></span>www.barber.com</p>
-                </section>
-
-                <section class="one-third">
-                        <h3>OPENING TIMES</h3>
-                                                  <p id = "totedd">Monday <span id = "asas"> 10:00 - 16:00</span></p>
-                                                  <p id = "totedd">Tuesday <span id = "asas"> 10:00 - 16:00</span></p> 
-                                                  <p id = "totedd">Wednesday  <span id = "asas"> 08:00 - 15:00</span></p>
-                                                  <p id = "totedd">Thursday <span id = "asas">  08:00 - 18:00</span></p>
-                                                  <p id = "totedd">Friday <span id = "asas">  07:00 - 19:00</span></p>
-                                                  <p id = "totedd">Saturday  <span id = "asas"> CLOSED</span></p>
-                                                  <p id = "totedd">Sunday    <span id = "asas">CLOSED</span></p>
-                       
-                </section>
-
+                           </div>
 
             </section>
 
-            <footer>
-                     <h5 id = "bottome3">TRIM YOUR BEARD AT  THE BARBER SALOON</h5>
-                     <h5 id = "bottome4">TRIM YOUR BEARD AT  THE BARBER SALOON</h5>
-                     <a href="appoinment.php"><button id = "show">Book now</button></a>
+
+             <section class="section-6">
+
+                                       <div class="animate">CLICK HERE FOR A FREE <br> QUOTE?</div>
+                                       <div class="animate1">
+
+
+                <div class="container">
+                                     <form action="#" method="POST">
+
+                                                         <div class="row">
+                                                         <div class="col-25">
+                                                         <label for="fname">First Name</label>
+                                                         </div>
+
+                                                         <div class="col-75">
+                                                         <input type="text" id="fname" name="firstname" required placeholder="Your name..">
+                                                         </div>
+                                                         </div>
+
+                                                         <div class="row">
+                                                         <div class="col-25">
+                                                         <label for="lname">Last Name</label>
+                                                         </div>
+
+                                                         <div class="col-75">
+                                                         <input type="text" id="lname" name="lastname" required placeholder="Your last name..">
+                                                         </div>
+                                                         </div>
+
+                                                         <div class="row">
+                                                         <div class="col-25">
+                                                         <label for="country">Email</label>
+                                                         </div>
+
+                                                         <div class="col-75">
+                                                         <input type="text" id="Email" name="Email" required placeholder="Your email">
+                                                         </div>
+                                                         </div>
+
+                                                          <div class="row">
+                                                         <div class="col-25">
+                                                         <label for="country">Phone number</label>
+                                                         </div>
+
+                                                         <div class="col-75">
+                                                         <input type="text" id="phone" name="phone" required placeholder="Your phone">
+                                                         </div>
+                                                         </div>
+
+                                                         <div class="row">
+                                                         <div class="col-25">
+                                                         <label for="subject">Subject</label>
+                                                         </div>
+
+                                                         <div class="col-75">
+                                                         <textarea id="subject" name="message" required  placeholder="Write something.." style="height:200px"></textarea>
+                                                        </div>
+                                                        </div>
+                                                        <div class="row">
+                                                        <input type="submit" name="Submit" value="Submit">
+                                                        </div>
+                                                        </form>
+                                                        </div>
+                             </div>
+
+                           
+                 
+
+                      
+                      
+                             <script>
+                                      $(document).ready(function(){
+                                        $(".animate").click(function(){
+
+                                          $(".animate1").slideToggle("slow");
+                                        })
+                                      })
+
+
+                             </script>
+                  
+                                     
+
+
+
+              
+          
+            </section>
+
+            <section class="section-7">
+
+                                      <h3 class="section-7-inner-1">LATEST PROJECTS</h3>
+
+                                       <p id="move2"></p>
+
+
+
+
+                                       <img id ="gallery1" src="http://www.artflyz.com/server16-cdn/2016/01/26/german-glass-house-german-glass-tree-topper-400x300-a295b31dd5d785ce.jpg">
+                                       
+                                       <img id ="gallery1" src="http://www.artflyz.com/server16-cdn/2016/04/24/one-floor-modern-glass-house-modern-glass-house-400x300-b7d39178b5160024.jpg">
+                                       <img id ="gallery1" src="http://www.artflyz.com/server16-cdn/2016/04/18/all-glass-house-glass-house-interior-design-400x300-b118c3d2d05332cb.jpg">
+
+                              
+           </section>       
+
+
+
+             <footer>
+                     <h5 id = "bottome3"><i class="fab fa-angellist"></i>2018 GLASS EXPERTS</h5>
+                   
+                     <button onclick="topFunction()" id="show">Go to top</button> 
             </footer>
 
-            <!--End  footer section-->
+                <script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
 
-        <script>
-
-window.onload = changeImage;
-
-
-
-function changeImage() {
-
-    var image = document.getElementById('myImage');
-
-    
-
-  /*  function toImage2() {
-
-        image.src ="https://www.pallmallbarbers.com/wp-content/themes/pallmallbarbers-4-woocommerce/library/images/location-fitzrovia-1024x681.jpg";
-
-
-        setTimeout(toImage3,5500);
-
-    }*/
-    function toImage3() {
-
-        image.src ="http://mr-sweeneytodd.com/wp-content/uploads/2014/09/g3-1024x681.jpg";
-
-
-        setTimeout(toImage4,5500);
-
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("show");
+    } else {
+        document.getElementById("show");
     }
-    function toImage4() {
+}
 
-        image.src ="http://mr-sweeneytodd.com/wp-content/uploads/2014/09/g5-1024x681.jpg";
-
-        
-
-        setTimeout(toImage1,5500);
-
-    }
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 
 
- 
 
-    function toImage1() {
-
-image.src = "https://www.pallmallbarbers.com/wp-content/uploads/2015/11/Trafalgar-Square.jpg";
-
-        
-
-        setTimeout(toImage2,7000);
-
-    }
-
-    
-
-    setTimeout(toImage2,7000);
 
 }
 
-
- 
-
-var img = new Array(
-    "https://www.pallmallbarbers.com/wp-content/uploads/2015/11/Trafalgar-Square.jpg",
-    //"http://lh6.ggpht.com/Vs3k4tJp9itFT_dhhWCmSsPBUz0dAFmYEGGwBc3aNIXW_hFFixV7eSrmJ9JkJc1jNe-QbrA645MySVi8YsRaePDPmA=s981",
-    "http://mr-sweeneytodd.com/wp-content/uploads/2014/09/g3-1024x681.jpg",
-    "http://mr-sweeneytodd.com/wp-content/uploads/2014/09/g5-1024x681.jpg");
-
-var imgElement = document.getElementById("myImage");
-var i = 0;
-var imgLen = img.length;
-
-        function nxt()
-        {
-            if(i < imgLen-1)
-                {
-                    i++;
-                }
-            else{
-                    i=0;                
-                }
-
-                imgElement.src = img[i];                    
-        }
-
-        function prvs()
-        {
-            if(i > 0)
-                {
-                    i--;
-                }
-            else
-            {
-                i = imgLen-1;
-            }
-                imgElement.src = img[i];                    
-        }
-
 </script>
 
-
-
+                            
 
 </body>
 </html>
